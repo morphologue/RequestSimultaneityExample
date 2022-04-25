@@ -1,0 +1,6 @@
+*.pfx
+bin/
+obj/
+.idea/
+.vscode/
+.vs/
