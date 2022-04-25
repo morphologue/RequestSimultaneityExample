@@ -21,3 +21,10 @@ SSL is mandatory so that the results will better reflect the real world.
    `1` means "1.1" as Kestrel doesn't support 1.0. Also, in order to use `3` you need to add `--build-arg QUIC=quic` to the `docker build` command line. This will
    include `libmsquic` in the final stage, which currently is only available for the `amd64` architecture.
 4. Open `index.html` in a browser and behold the results.
+
+## Typical results
+HTTP1.1:
+![HTTP1.1 results](Results_HTTP1.png)
+
+HTTP2:
+![HTTP2 results](Results_HTTP2.png)
